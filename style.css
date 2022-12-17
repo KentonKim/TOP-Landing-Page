@@ -1,6 +1,5 @@
 * {
     font-family: system-ui, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* border: green 1px solid; */
     box-sizing: border-box;
 }
 
@@ -71,13 +70,14 @@ html, body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .container2 {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    margin-bottom: 60px;
 }
 
 .info2 {
