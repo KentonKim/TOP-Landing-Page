@@ -46,6 +46,12 @@ html, body {
     flex: 1;
 }
 
+.one-right {
+    border: 1px grey solid;
+    background-color: grey;
+    border-radius: 10px;
+}
+
 .one-title {
     font-size: 48px;
     font-weight: bolder;
@@ -90,46 +96,61 @@ html, body {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 100px 80px 100px 80px;
 }
 
 .quote {
     font-style: italic;
-
     font-size: 36px;
     color: #1f2937;
 }
 
 .thor {
     font-weight: bold;
+    align-self: flex-end;
+    margin-right: 300px;
 }
 
 .four {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 90px;
 }
 
 .blue {
     background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue2 {
+    margin: 50px 160px;
 }
 
 .blue3 {
     color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .blue4 {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .four-sign {
     border: #f9faf8 2px solid;
+    margin-right: 160px;
 }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
-    height: 1000px;
+    padding: 40px;
 }
 
 button {
